@@ -1,5 +1,11 @@
 1. nyalain mysql (kalo clone dari nab, UBAH PORT NYA)
-2. di terminal
+   di sequelize.js
+   ```
+   host: "localhost",
+   port: 3308,
+   dialect: "mysql",
+   ```
+3. di terminal
 
 ```bash
 npm install mysql2 sequelize
